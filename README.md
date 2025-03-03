@@ -74,7 +74,7 @@
 <body>
 
   <!-- Logo -->
-  <img src="logo.png" alt="Walden Logo" class="logo">
+  <img src="logo.jpg" alt="Walden Logo" class="logo">
 
   <!-- Pulsanti -->
   <div class="buttons">
