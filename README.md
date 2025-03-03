@@ -78,8 +78,8 @@
 
   <!-- Pulsanti -->
   <div class="buttons">
-    <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
-    <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
+    <a href="www.walden-vintage.com" class="button">Visita il nostro Sito</a>
+    <a href="https://www.facebook.com/share/1EWubqaoEv/" class="button">Seguici su Facebook</a>
     <a href="https://www.instagram.com/waldenvintage?igsh=MWMxZ201bGltZGpnbA==&utm_source=ig_contact_invite" class="button">Seguici su Instagram</a>
   </div>
 
