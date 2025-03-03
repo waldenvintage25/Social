@@ -10,11 +10,11 @@
       padding: 0;
       font-family: 'Arial', sans-serif;
       height: 100%;
+      background-color: #ffffff; /* Sfondo bianco */
     }
 
-    /* Sfondo generale e layout centrale */
+    /* Layout centrale */
     body {
-      background-color: #f4f4f4;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -80,7 +80,7 @@
   <div class="buttons">
     <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
     <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
-    <a href="(https://www.instagram.com/waldenvintage?igsh=MWMxZ201bGltZGpnbA==&utm_source=ig_contact_invite)" class="button">Seguici su Instagram</a>
+    <a href="URL_INSTAGRAM" class="button">Seguici su Instagram</a>
   </div>
 
 </body>
