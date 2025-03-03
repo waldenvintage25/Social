@@ -23,26 +23,6 @@
       min-height: 100vh;
     }
 
-    /* Intestazione */
-    header {
-      background-color: #333;
-      color: #fff;
-      width: 100%;
-      padding: 40px 0;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
-    header p {
-      font-size: 1.2em;
-      margin-top: 0;
-    }
-
     /* Logo */
     .logo {
       margin-top: 20px;
@@ -92,12 +72,6 @@
   </style>
 </head>
 <body>
-
-  <!-- Intestazione con testo di benvenuto -->
-  <header>
-    <h1>Benvenuti alla Fiera Walden</h1>
-    <p>Scopri il nostro mondo di mobili unici e funzionali</p>
-  </header>
 
   <!-- Logo -->
   <img src="logo.webp" alt="Walden Logo" class="logo">
