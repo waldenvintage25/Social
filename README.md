@@ -74,14 +74,4 @@
 <body>
 
   <!-- Logo -->
-  <img src="logo.png" alt="Walden Logo" class="logo">
-
-  <!-- Pulsanti -->
-  <div class="buttons">
-    <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
-    <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
-    <a href="URL_INSTAGRAM" class="button">Seguici su Instagram</a>
-  </div>
-
-</body>
-</html>
+  <img src="logo.png" alt="Walden Logo" class="lo
