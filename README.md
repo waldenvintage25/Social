@@ -1,108 +1,113 @@
-<!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seguici sui Social</title>
-    <style>
-        /* Stile generale */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, #87ceeb, #ffffff);
-            color: #333;
-            text-align: center;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benvenuti alla Fiera Walden</title>
+  <style>
+    /* Reset base */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      height: 100%;
+    }
 
-        /* Header */
-        header {
-            background-color: #1e90ff;
-            color: white;
-            padding: 20px 0;
-        }
+    /* Sfondo generale e layout centrale */
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 100vh;
+    }
 
-        header img {
-            max-width: 100px;
-            margin-bottom: 10px;
-        }
+    /* Intestazione */
+    header {
+      background-color: #333;
+      color: #fff;
+      width: 100%;
+      padding: 40px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-        header h1 {
-            margin: 10px 0 0;
-            font-size: 28px;
-        }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
 
-        header p {
-            margin: 5px 0 0;
-            font-size: 18px;
-            font-style: italic;
-        }
+    header p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
 
-        /* Contenitore principale */
-        .container {
-            padding: 30px 20px;
-        }
+    /* Logo */
+    .logo {
+      margin-top: 20px;
+      width: 250px;
+      max-width: 100%;
+    }
 
-        h2 {
-            font-size: 24px;
-            color: #1e90ff;
-        }
+    /* Sezione pulsanti */
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+      width: 100%;
+      max-width: 400px;
+    }
 
-        /* Pulsanti */
-        .social-button {
-            display: inline-block;
-            text-decoration: none;
-            padding: 15px 30px;
-            margin: 20px 10px;
-            font-size: 20px;
-            font-weight: bold;
-            border-radius: 10px;
-            color: white;
-            transition: transform 0.2s, box-shadow 0.2s;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-        }
+    .button {
+      padding: 18px 40px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #008CBA;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      width: 100%;
+      text-align: center;
+    }
 
-        .social-button:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-        }
+    .button:hover {
+      background-color: #005f73;
+    }
 
-        .facebook {
-            background-color: #4267B2;
-        }
-
-        .instagram {
-            background-color: #C13584;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 30px;
-            background-color: #1e90ff;
-            color: white;
-            padding: 10px 0;
-            font-size: 16px;
-        }
-    </style>
+    /* Layout per desktop */
+    @media (min-width: 768px) {
+      .buttons {
+        flex-direction: row;
+        gap: 30px;
+        max-width: none;
+      }
+      .button {
+        width: 250px;
+        font-size: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <img src="logo.png" alt="Logo" /> <!-- Aggiungi qui il tuo logo -->
-        <h1>Seguici sui Social</h1>
-        <p>Connettiti con noi su Facebook e Instagram</p>
-    </header>
 
-    <!-- Contenuto principale -->
-    <div class="container">
-        <h2>Segui i nostri profili social</h2>
-        <a href="https://www.facebook.com/tuoProfilo" class="social-button facebook" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/tuoProfilo" class="social-button instagram" target="_blank">Instagram</a>
-    </div>
+  <!-- Intestazione con testo di benvenuto -->
+  <header>
+    <h1>Benvenuti alla Fiera Walden</h1>
+    <p>Scopri il nostro mondo di mobili unici e funzionali</p>
+  </header>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 La tua Azienda. Tutti i diritti riservati.</p>
-    </footer>
+  <!-- Logo -->
+  <img src="logo.webp" alt="Walden Logo" class="logo">
+
+  <!-- Pulsanti -->
+  <div class="buttons">
+    <a href="URL_DEL_SITO" class="button">Visita il nostro Sito</a>
+    <a href="URL_FACEBOOK" class="button">Seguici su Facebook</a>
+    <a href="URL_INSTAGRAM" class="button">Seguici su Instagram</a>
+  </div>
+
 </body>
 </html>
